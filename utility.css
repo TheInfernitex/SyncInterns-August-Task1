@@ -1,0 +1,59 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-spacearound{
+    justify-content: space-around;
+}
+.justify-spacebetw{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+.col{
+    flex-direction: column;
+}
+.pad15{
+    padding: 15px;
+}
+.mar15{
+    margin: 15px;
+}
+.mar30{
+    margin: 30px;
+}
+.liststyle{
+    list-style-type: none;
+    text-decoration: none;
+    width:32%;
+}
+
+.white{
+    color:white;
+}
+.bold{
+    font-weight: 900;
+}
+.abs{
+    position: absolute;
+}
+.rel{
+    position: relative;
+}
+.pointer{
+    cursor: pointer;
+}
+.big{
+    font-size: larger;
+}
+.card{
+    height:70%;
+    width:25%;
+    /* border:2px solid rgb(0, 69, 118); */
+    border:3px solid rgb(0, 149, 255);
+    border-radius: 5%;
+}

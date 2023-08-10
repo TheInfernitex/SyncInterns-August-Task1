@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Tektur:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@800&family=Tektur:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    overflow-x:hidden;
+    text-align: center;
+    
+    background-color: rgb(114, 163, 255);
+    /* background-color: rgb(147, 196, 235); */
+}
+nav{
+    font-family: 'Inter', sans-serif;
+    height: 10vh;
+    width:100vw;
+    color: rgb(0, 69, 118);
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+font-family: 'Open Sans', sans-serif;
+}
+nav ul li a{
+    color: rgb(0, 69, 118);
+    text-decoration: none;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    cursor:pointer;
+    color: rgb(0, 100, 171);
+    font-weight: bolder;
+}
+.sec1{
+    background: url("assets/home.jpg");
+    background-size:100vw;
+    background-repeat: no-repeat;
+    height:52vh;
+}
+section{
+    width:100vw;
+    text-align: center;
+    
+    background-color: aliceblue;
+    /* background-color: rgb(143, 173, 210); */
+}
+h1{
+    color: rgb(0, 69, 118);
+}
+#searchIcon{
+    height: 5vh;
+    position: absolute;
+    bottom: 33%;
+    right:4%;
+}
+.homes{
+    width:80%;
+}
+.cardbtn{
+    height:10%;
+    width:50%;
+    color:rgb(85, 0, 254);
+    border: 3px solid rgb(85, 0, 254);
+    border-radius: 10%;
+    cursor: pointer;
+}
+.cardbtn:hover{
+    background-color: rgb(85, 0, 254);
+    color: aliceblue;
+}
+.sec2{
+    height:75vh;
+}
+.card:hover{
+    border: 3px solid rgb(85, 0, 254);
+}
+footer div{
+    height:15vh;
+    margin:10% 5% 0% 5%;
+    position: relative;
+    bottom: 20%;
+    color: rgb(0, 7, 90);
+}
+footer div a{
+    text-decoration: none;
+    color: rgb(0, 21, 255);
+}
+footer{
+    height:25vw;
+    background: url("assets/realEstate.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/*RESPONSIVENESS*/
+
+
+
+@media screen and (max-width:1100px)
+{
+    #searchBar{
+        width:50%;
+        margin: 0%;
+    }
+    nav{
+        font-size:smaller;
+    }
+    nav ul{
+        justify-content: space-around;
+    }
+    .secondUL li{
+        padding:4%;
+    }
+    h1{
+        visibility: hidden;
+    }
+    .sec1{
+        background-color: aliceblue;
+    }
+    #searchIcon{
+        visibility: hidden;
+    }
+    .card{
+        padding:5%;
+        margin:5% 0;
+        border-radius: 10%;
+    }
+    .sec2{
+        height:170%;
+        flex-direction: column;
+        font-size: smaller;
+    }
+    .card p{
+        margin:6%;
+    }
+
+
+    footer{
+        width:100%;
+    }
+    footer div{
+        font-size:smaller;
+    }
+}
+
+@media screen and (max-width:800px) {
+    nav{
+        font-size: x-small;
+    }
+    .sec2{
+        font-size: x-small;
+    }
+    
+
+
+    
+    .sec1{
+        height:20vh;
+        background-color:rgb(1, 52, 134);
+        background-image: none;
+
+    }
+    /* sec1{
+        height:25vh;
+    }
+    #searchBar{
+        visibility: hidden;
+    } */
+
+
+
+
+
+    footer{
+        font-size:x-small;
+    }
+}
+@media screen and (max-width:500px) {
+    nav{
+        font-size:xx-small;
+    }
+    /* #searchBar{
+        margin-top:10%;
+    } */
+    .sec2{
+        font-size: xx-small;
+    }
+    footer{
+        font-size:xx-small;
+    }
+}
