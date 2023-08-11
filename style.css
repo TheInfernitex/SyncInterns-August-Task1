@@ -181,9 +181,9 @@ footer{
     nav{
         font-size:xx-small;
     }
-    /* #searchBar{
-        margin-top:10%;
-    } */
+    .sec1{
+        height:20vh;
+    }
     .sec2{
         font-size: xx-small;
     }
